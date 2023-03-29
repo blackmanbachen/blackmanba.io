@@ -2,7 +2,11 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/client/(.*)"
+      "destination": "/client/index.html"
+    },
+	{
+      "source": "/(.js)",
+      "destination": "/client/(.js)"
     }
   ]
 }

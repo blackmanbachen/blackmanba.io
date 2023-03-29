@@ -5,8 +5,8 @@
       "destination": "/client/index.html"
     },
 	{
-      "source": "/(.js)",
-      "destination": "/client/(.js)"
+      "source": "/assets/(.*)",
+      "destination": "/client"
     }
   ]
 }

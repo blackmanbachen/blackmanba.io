@@ -56,18 +56,12 @@ export default () => {
     },
   ]
   const openLink = () => {
-    window.open('https://github.com/ddiu8081', '_blank')
+    window.open('https://github.com/blackmanbachen', '_blank')
   }
   return (
     <>
       <h2 class="flex items-center mt-14 mb-4 font-semibold text-3xl">
-        <span flex-1 class="title">Projects</span>
-        <div
-          onClick={openLink}
-          class="op-50 ml-2 hover:op-100 transition-opacity cursor-pointer" 
-        >
-          <div class="m-2 i-ri-arrow-right-up-line" ></div>
-        </div>
+        <span flex-1 class="title">Projects</span>        
       </h2>
       <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
         <Index each={projectLists}>

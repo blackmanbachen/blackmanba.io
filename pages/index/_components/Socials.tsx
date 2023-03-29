@@ -33,12 +33,12 @@ export default () => {
   const socialLists = [
     {
       text: 'Github',
-      link: 'https://github.com/ddiu8081',
+      link: 'https://github.com/blackmanbachen',
       icon: 'i-ri-github-fill',
       class: 'hover:bg-gray-700 dark:hover:bg-white dark:hover:text-gray-900'
     }, {
       text: 'Blog',
-      link: 'https://notes.ljl.li',
+      link: 'https://www.chenzw.com',
       icon: 'i-ri-book-2-line',
       class: 'hover:bg-gray-700 dark:hover:bg-white dark:hover:text-gray-900'
     }, {

@@ -24,18 +24,12 @@ const PostItem = (props: PostProps) => {
 export default () => {
   const [postLists] = createResource(getLatestPosts)
   const openLink = () => {
-    window.open('https://notes.ljl.li', '_blank')
+    window.open('https://github.com/blackmanbachen', '_blank')
   }
   return (
     <>
       <h2 class="flex items-center mt-14 mb-4 font-semibold text-3xl">
-        <span flex-1 class="title">Latest Posts</span>
-        <div
-          onClick={openLink}
-          class="op-50 ml-2 hover:op-100 transition-opacity cursor-pointer" 
-        >
-          <div class="m-2 i-ri-arrow-right-up-line" ></div>
-        </div>
+        <span flex-1 class="title">Latest Posts</span>        
       </h2>
       <div class="grid grid-cols-1 -mx-2">
         <Index each={postLists()}>

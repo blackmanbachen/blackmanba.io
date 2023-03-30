@@ -4,25 +4,25 @@ import ProjectItem from './ProjectItem'
 export default () => {
   const projectLists = [
     {
-      name: 'Moegi Theme for VS Code',
+      name: 'GitLab',
       desc: 'An elegant theme for VS Code.',
       link: 'https://github.com/moegi-design/vscode-theme',
-      icon: 'i-fluent-emoji-flat-cherry-blossom',
+      icon: 'i-logos-gitlab',
     }, {
-      name: 'bilicli',
+      name: 'Nexus',
       desc: 'Bilibili-live danmu dashboard in your terminal.',
       link: 'https://github.com/ddiu8081/bilicli',
-      icon: 'i-fluent-emoji-flat-control-knobs',
+      icon: 'i-fluent-emoji-flat-package',
     }, {
-      name: 'blive-message-listener',
+      name: 'Notion',
       desc: 'Bilibili-live danmu listener with type.',
       link: 'https://github.com/ddiu8081/blive-message-listener',
-      icon: 'i-fluent-emoji-flat-keyboard',
+      icon: 'i-logos-notion-icon',
     }, {
-      name: 'bus-vis',
+      name: 'Drawio',
       desc: 'City bus visualizations of China',
       link: 'https://bus.ljl.li/',
-      icon: 'i-fluent-emoji-flat-oncoming-bus',
+      icon: 'i-vscode-icons-file-type-drawio',
     }, {
       name: 'Tin',
       desc: 'Mathematical arts driven by t, i and anything',

@@ -5,23 +5,23 @@ export default () => {
   const projectLists = [
     {
       name: 'GitLab',
-      desc: 'An elegant theme for VS Code.',
-      link: 'https://github.com/moegi-design/vscode-theme',
+      desc: 'GitLab is open source software to collaborate on code.',
+      link: 'https://gitlab.chenzw.com:8443',
       icon: 'i-logos-gitlab',
     }, {
       name: 'Nexus',
-      desc: 'Bilibili-live danmu dashboard in your terminal.',
-      link: 'https://github.com/ddiu8081/bilicli',
+      desc: 'Manage components, binaries and build artifacts across your entire software supply chain.',
+      link: 'https://nexus.chenzw.com:8443',
       icon: 'i-fluent-emoji-flat-package',
     }, {
       name: 'Notion',
-      desc: 'Bilibili-live danmu listener with type.',
+      desc: 'Notion is the connected workspace where better, faster work happens.',
       link: 'https://github.com/ddiu8081/blive-message-listener',
       icon: 'i-logos-notion-icon',
     }, {
       name: 'Drawio',
-      desc: 'City bus visualizations of China',
-      link: 'https://bus.ljl.li/',
+      desc: 'draw.io is free online diagram software. You can use it as a flowchart maker',
+      link: 'https://drawio.chenzw.com:8443',
       icon: 'i-vscode-icons-file-type-drawio',
     }, {
       name: 'Tin',

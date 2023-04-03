@@ -21,7 +21,7 @@ export default () => {
     }, {
       name: 'Drawio',
       desc: 'draw.io is free online diagram software. You can use it as a flowchart maker',
-      link: 'https://drawio.chenzw.com:8443',
+      link: 'https://draw.chenzw.com:8443',
       icon: 'i-vscode-icons-file-type-drawio',
     }, {
       name: 'Tin',
